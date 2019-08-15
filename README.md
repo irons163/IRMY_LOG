@@ -13,6 +13,8 @@
 ## Usage
 
 ```obj-c
+#import "Log.h"
+
 - (NSString*)AddHeaderToMessage:(NSString*)message {
     counter++;
     return [NSString stringWithFormat:@"%@ %@%d %@", MyLivewViewStatusLogkey, @"Index:",counter, message];
